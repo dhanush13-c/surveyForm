@@ -1,0 +1,99 @@
+body{
+    font-family: 'Roboto', sans-serif;
+    min-width: 320px;
+    background: #DAD299;  /* fallback for old browsers */  /* Chrome 10-25, Safari 5.1-6 */
+    background: -webkit-gradient(linear, left top, right top, from(#B0DAB9), to(#DAD299));
+    background: linear-gradient(to right, #B0DAB9, #DAD299); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+}
+#container{
+    width: 75%;
+    margin: 0 auto;
+    padding: 10px;
+    max-width: 900px;
+    border-radius: 2%;
+    font-size: 20px;
+    font-weight: normal;
+    text-align: center;
+    background-color: #f7f7f7;
+    -webkit-box-shadow: 0 0 3px rgba(0, 0, 0, 0.3);
+            box-shadow: 0 0 3px rgba(0, 0, 0, 0.3);
+}
+h1{
+    font-size: 40px;
+    padding: 5px;   
+    text-align: center;
+}
+li{
+    list-style: none;
+}
+.label{
+    display: inline-block;
+    text-align: right;
+    padding: 5px;
+    width: 40%;
+    vertical-align: top;
+}
+.rightTab{
+    display: inline-block;
+    text-align: left;
+    vertical-align: middle;
+    width: 40%;
+}
+.input-field{
+    height: 20px;
+    width: 200px;
+    padding: 5px;
+    margin: 10px;
+    border: 1px solid #c0c0c0;
+    border-radius: 2px;
+}
+
+#submit {
+    background-color: #59ace0;
+    border-radius: 4px;
+    color: white;
+    font-size: 1em;
+    height: 40px;
+    width: 96px;
+    margin: 10px;
+    border: 0px solid;
+  }
+
+#dropdown {
+  height: 35px;
+  width: 140px;
+  padding: 5px;
+  margin: 10px;  
+  margin-top: 15px;
+  border: 1px solid #c0c0c0;
+  border-radius: 2px;
+}
+
+#comments{
+    height: 100px; 
+    resize:vertical;
+    width: 100%;
+}
+
+@media screen and (max-width: 833px) {
+    .input-field {
+      width: 80%;
+    }
+  }
+  
+@media screen and (max-width: 520px) {
+.labels {
+  width: 100%;
+  text-align: left;
+}
+.rightTab {
+  width: 80%;
+  float: left;
+}
+.input-field {
+  width: 100%;
+}
+#container{
+    width: 100%;
+}
+}  
